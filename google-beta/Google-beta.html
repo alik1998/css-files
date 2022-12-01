@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .resim {
+        text-align: center;
+        /* border: 2px solid rebeccapurple;        */
+        margin: 0px 50px;
+        margin-bottom: 5px;
+      }
+      /* arama */
+      #arama {
+        background-color: gray;
+        text-align: center;
+        vertical-align: middle;
+        margin: 0px 50px;
+      }
+      #arama-bar {
+        width: 500px;
+      }
+      /* linkler */
+
+      #anaKatman {
+        margin: 0 auto;
+      }
+
+      #solKatman {
+        background-color: rgb(143, 236, 254);
+        float: left;
+        height: 100px;
+        width: 30%;
+        margin-left: 50px;
+        margin-right: 0px;
+      }
+
+      #ortaKatman {
+        background-color: rgb(41, 255, 244);
+        float: left;
+        height: 100px;
+        width: 715px;
+        margin-right: 2px;
+        margin-left: 2px;
+      }
+
+      #sagKatman {
+        background-color: rgb(0, 216, 249);
+        float: right;
+        height: 100px;
+        width: 30%;
+        margin-left: 0px;
+        margin-right: 50px;
+      }
+
+      .clear {
+        clear: both;
+      }
+      .bg {
+        /* background-color: blue; */
+        vertical-align: bottom;
+        text-align: center;
+        margin-top: 5px;
+        padding: auto auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- başlık -->
+    <header>
+      <div class="resim">
+        <img src="google.jpg" alt="" />
+      </div>
+    </header>
+    <!-- arama -->
+    <nav>
+      <div id="arama">
+        <h5 style="margin: 0px">search the web using google!</h5>
+        <input id="arama-bar" type="text" placeholder="Google ara" /><br />
+        <button type="button">search</button>
+        <button type="button">Kendimi şanslı hissediyorum</button>
+      </div>
+
+      <div id="buttons"></div>
+    </nav>
+    <!-- linkler -->
+    <section>
+      <div class="bg" id="anaKatman">
+        <!-- <div class="bg" id="ustKatman">Başlık vb</div> -->
+
+        <div class="bg" id="solKatman">
+          Special Searches <br />
+          Stanford Search <br />
+          Linux Search
+        </div>
+
+        <div class="bg" id="ortaKatman">
+          Help! <br />
+          About Google! <br />
+          Company Info <br />
+          Google! Logos
+        </div>
+
+        <div class="bg" id="sagKatman">
+          Get Google! <br />
+          updates monthly:<br />
+          <input id="mail-bar" type="text" placeholder="Your e-mail" /><br />
+          <button type="button">subscribe</button>
+          <a href="">archive</a>
+        </div>
+      </div>
+    </section>
+    <footer></footer>
+  </body>
+</html>
